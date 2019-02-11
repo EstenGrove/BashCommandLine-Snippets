@@ -133,7 +133,7 @@ users <username>
 Alternate way: grep <username> /etc/group
 ```
 -----
-####__Netstat__
+#### __Netstat__
 ###### Count the number of connections per IP
 ```
 netstat -ntu | print '{print$5}' | cut -d: f1 | sort | uniq -c | sort -rn
