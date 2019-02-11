@@ -47,6 +47,10 @@ find / -type d -name someDirectoryName
 ```
 find . -type f -ls | grep "Oct 10"
 ```
+###### Find all files modified in the last hour
+```
+find / mmin -60
+```
 ###### Find all executables in the root directory
 ```
 find / -perm /a=x
@@ -58,4 +62,20 @@ find . -type d -name -empty
 ###### Find all files for a specific user in the "home" directory
 ```
 find /home -user <someUser>
+```
+###### Find all files by user group in the "home" directory
+```
+find /home -group <someGroup>
+```
+###### Find all files of a certain size(range)
+```
+find / -size +50M -size -100M
+  Flags:
+  - bytes: c
+  - kilobytes: k
+  - megabytes: M
+  - Gigabytes: G
+  - Sizes and Ranges
+    - +30M means anything greater than or equal to 30 megabytes
+    - -30M means anything less than or equal to 30 megabytes
 ```
