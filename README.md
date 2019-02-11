@@ -132,4 +132,37 @@ id -g -n <username>
 users <username>
 Alternate way: grep <username> /etc/group
 ```
-###### 
+-----
+####__Netstat__
+###### Count the number of connections per IP
+```
+netstat -ntu | print '{print$5}' | cut -d: f1 | sort | uniq -c | sort -rn
+```
+###### Human-Readable format of number of active IP connections
+```
+netstat -ntu | grep ESTAB | awk print '{print$5}' | cut -d: f1 | sort | uniq -c | sort -rn
+```
+###### Check for listening ports
+```
+netstat tuplen
+```
+###### Check all TCP ports
+```
+netstat -at
+```
+###### List stats for all ports and sockets
+```
+netstat -s
+```
+###### Check for connections to a HTTP port 80 on Apache.
+```
+netstat -nt | grep :80 | wc -l
+```
+###### Check for connections to HTTPS port 443 on Apache.
+```
+netstat -nt | grep :443 | wc -l
+```
+###### List all ports accessible externally. (NOTE: this can only be run from an external device, not the server)
+```
+n <serverIP>
+```
