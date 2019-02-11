@@ -33,3 +33,29 @@ tail -1000 exim_rejectlog | awk ‘{print $8}’ | sort | uniq -c | sort -rn | h
 ```
 grep "18/Oct/2018" |  awk '{print $1}' ptpmfg.com-Oct-2018 | sort | uniq -c | sort -rn | head
 ```
+---------
+#### __Find__
+###### Find all documents with a specific extension(.txt, .js, .html...) recursively.
+```
+find /Documents -type -f -name “*.txt”
+```
+###### Find a directory by name
+```
+find / -type d -name someDirectoryName
+```
+###### Find all files by the "Last Modified <\date>"
+```
+find . -type f -ls | grep "Oct 10"
+```
+###### Find all executables in the root directory
+```
+find / -perm /a=x
+```
+###### Find all empty directories
+```
+find . -type d -name -empty
+```
+###### Find all files for a specific user in the "home" directory
+```
+find /home -user <someUser>
+```
