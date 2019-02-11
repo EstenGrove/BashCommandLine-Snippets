@@ -36,3 +36,28 @@ sed -n 383p someFile.txt
 ```
 sed -n '3,6p' someFile.txt
 ```
+###### Print the top 20 lines
+```
+head -20 <file>
+```
+###### Print the bottom 20 lines
+```
+tail -20 <file>
+```
+###### Print the complete file and navigate with arrow keys
+```
+less <file>
+```
+###### Copy a file and add line numbers
+```
+cat -n originalFile.txt > numberedFile.txt
+```
+###### Print a file to the screen with line numbers, but don't save it.
+```
+nl <file>
+```
+###### Long List directory contents, showing perms, size, last modified date and more.
+```
+Unix: ls -lah
+Linux: ll -lah
+```
