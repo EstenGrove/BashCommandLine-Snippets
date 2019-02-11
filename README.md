@@ -17,12 +17,15 @@ awk '{print $1,$7}' <name of access_log> | cut -d? -f1 | sort | uniq -c |sort -n
 ```
 awk '{print $1}' estengrove.beoktrue.com-Oct-2018 | sort | uniq -c | sort -rn | head
 ```
+###### Print columns 4 and 5 of an Apache error-log.
 ```
 awk ‘{print $4, “ “, $5}’ error_log
 ```
+###### Print the # of times an IP address was rejected by Apache's Firewall.
 ```
 tail -1000 exim_rejectlog | awk ‘{print $8}’ | sort | uniq -c | sort -rn | head
 ```
+###### Get the web traffic by IP for a specific date(ie. October 18, 2018)
 ```
 grep "18/Oct/2018" |  awk '{print $1}' ptpmfg.com-Oct-2018 | sort | uniq -c | sort -rn | head
 ```
