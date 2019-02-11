@@ -16,6 +16,7 @@ awk '{print $1,$7}' <name of access_log> | cut -d? -f1 | sort | uniq -c |sort -n
 ```
 awk '{print $1}' estengrove.beoktrue.com-Oct-2018 | sort | uniq -c | sort -rn | head
 ```
+   - Print column 1 of along with the number of IP hits in an access-log or error-log.
 ```
 awk ‘{print $4, “ “, $5}’ error_log
 ```
