@@ -25,7 +25,7 @@ awk '{print $1}' estengrove.beoktrue.com-Oct-2018 | sort | uniq -c | sort -rn | 
 ```
 awk ‘{print $4, “ “, $5}’ error_log
 ```
-###### Print the # of times an IP address was rejected by Apache's Firewall.
+###### Print messages that were rejected and logged in the exim-rejectlog.
 ```
 tail -1000 exim_rejectlog | awk ‘{print $8}’ | sort | uniq -c | sort -rn | head
 ```
