@@ -96,3 +96,10 @@ find . -name "someFile.txt" -type f -delete
 ```
 find . -name "*.txt" -type f -delete
 ```
+--------
+####__Permissions__####
+###### Get Permissions in octal form (755, 644 etc.)
+```
+stat -c "%a" <file|directory> ###### FOR Mac: stat -f "%A" <file|directory>
+```
+
