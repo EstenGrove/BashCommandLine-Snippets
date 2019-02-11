@@ -20,6 +20,10 @@ dig example.com ns
 ```
 dig example.com txt
 ```
+###### Alternate method for checking DNS. 
+```
+nslookup example.com
+```
 ###### Test whether a server is live and it's response time.
 ```
 ping example.com
