@@ -33,6 +33,14 @@ tail -1000 exim_rejectlog | awk ‘{print $8}’ | sort | uniq -c | sort -rn | h
 ```
 grep "18/Oct/2018" |  awk '{print $1}' ptpmfg.com-Oct-2018 | sort | uniq -c | sort -rn | head
 ```
+###### Print a specific line number in a file
+```
+sed -n 383p someFile.txt
+```
+###### Print multiple lines in a file. Specifically a range.
+```
+sed -n '3,6p' someFile.txt
+```
 ---------
 #### __Find__
 ###### Find all documents with a specific extension(.txt, .js, .html...) recursively.
@@ -78,4 +86,13 @@ find / -size +50M -size -100M
   - Sizes and Ranges
     - +30M means anything greater than or equal to 30 megabytes
     - -30M means anything less than or equal to 30 megabytes
+```
+#### __Find and Remove__
+###### Find and delete a specific file
+```
+find . -name "someFile.txt" -type f -delete
+```
+###### Find and delete all files of a specific type or extension
+```
+find . -name "*.txt" -type f -delete
 ```
