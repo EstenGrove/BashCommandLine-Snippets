@@ -3,7 +3,7 @@ A set a various different commands for different purposes along with snippets an
 
 --------
 
-#### Text & Data Processing - Access Logs, Error Logs etc.
+#### __Text & Data Processing - Access Logs, Error Logs etc.__
 
 
 
