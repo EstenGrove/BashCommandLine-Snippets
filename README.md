@@ -4,6 +4,8 @@ A set a various different commands for different purposes along with snippets an
 --------
 
 #### Text & Data Processing - Access Logs, Error Logs etc.
+
+###### Sort the number of hits per IP address per web page from greatest to fewest.
 ```
 awk '{print $1,$7}' <name of access_log> | cut -d? -f1 | sort | uniq -c |sort -nr
 ```
