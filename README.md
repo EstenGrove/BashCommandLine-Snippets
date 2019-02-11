@@ -12,6 +12,7 @@ awk '{print $1,$7}' <name of access_log> | cut -d? -f1 | sort | uniq -c |sort -n
 * 3 103.143.19.3 //wp-login.php
 * 1 113.18.21.91 /wordpress//wp-login.php
 * 1 97.18.19.7 /blog//wp-login.php
+-----------
 
 - Print column 1 of along with the number of IP hits in an access-log or error-log.   
 ```
