@@ -1,5 +1,16 @@
 #### __Setting up a Bash Script on Mac__
 
+###### Quick Summary
+* Navigate to your user directory: ```cd ~```
+* Create a directory called bin: ```mkdir bin```
+* Add the path to "/bin" to the top of your .bash_profile:
+  * ```nano .bash_profile```
+  * ```export PATH=$PATH:/Users/estengrove```
+  * Save the file
+  * Go to the bin directory and create a bash script
+    * All bash scripts must include: ```!#/bin/bash``` at the top before any commmands.
+  * To run a script: ```sh someFile.sh```
+
 ###### Navigate to your 'user' directory. 
 ```
 cd ~
@@ -48,15 +59,15 @@ touch hello-world
 nano hello-world
 ```
   Then paste in: ```!#/bin/bash``` at the top of the file
-###### Then let's say "Hello World!". Type:
+###### Then let's say "Hello World!".
 ```
 echo Hello World!
 ```
-###### The save the file
+###### Now save the file:
 ```
 Press CTRL+O
 Then ENTER
-THEN CTRL+X
+Then CTRL+X
 ```
 #### CONGRATS! You've made your first bash script. Let's see it run. 
 Type: ```sh hello-world```
