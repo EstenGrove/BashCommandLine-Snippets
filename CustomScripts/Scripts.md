@@ -79,7 +79,7 @@ done
 ###### Using "for...do" loop
 Get all files in a directory and list them using "for...do" loop:
 ```
-** EXAMPLE 1
+** EXAMPLE 1: FOR LOOP
 
 #!/bin/bash
 
@@ -88,10 +88,11 @@ counter=1
 
 for name in $names
 do
-  echo $counter. $name
+  echo "$counter. $name"
   ((counter++))
 done
-echo ALL DONE!
+
+echo "ALL DONE!"
 ```
 **RESULT:**
 ```
@@ -103,6 +104,33 @@ echo ALL DONE!
 5. Butters
 ALL DONE!
 ```
+###### Using "while...do" loop
+```
+** EXAMPLE 1: WHILE LOOP
 
+#!/bin/bash
 
+counter=1
+while [ $counter -le 10 ]
+do
+  echo $counter
+  ((counter++))
+done
 
+echo "ALL DONE!"
+```
+**RESULT:**
+```
+** EXAMPLE 1 ANSWER:
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+ALL DONE!
+```
