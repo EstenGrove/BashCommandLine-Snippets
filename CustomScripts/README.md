@@ -1,6 +1,6 @@
 #### __Setting up a Bash Script on Mac__
 
-###### Quick Summary
+##### __Quick Summary__
 * Navigate to your user directory: ```cd ~```
 * Create a directory called bin: ```mkdir bin```
 * Add the path to "/bin" to the top of your .bash_profile:
