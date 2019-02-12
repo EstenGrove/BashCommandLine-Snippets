@@ -77,10 +77,10 @@ done
 -----
 ## __Examples of Bash Loops__
 ###### Using "for...do" loop
-Print all names in a list using a "for...do" loop:
+Print all names in a list using a "for...do" loop. For every name in names print it with the "counter".
 ```
 ** EXAMPLE 1: FOR LOOP
-   -For every "name" in "names"
+   
 #!/bin/bash
 
 names='Cartman Stan Kyle Kenny Butters'
