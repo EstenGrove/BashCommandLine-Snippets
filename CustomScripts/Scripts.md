@@ -77,10 +77,10 @@ done
 -----
 ## __Examples of Bash Loops__
 ###### Using "for...do" loop
-Get all files in a directory and list them using "for...do" loop:
+Print all names in a list using a "for...do" loop:
 ```
 ** EXAMPLE 1: FOR LOOP
-
+   -For every "name" in "names"
 #!/bin/bash
 
 names='Cartman Stan Kyle Kenny Butters'
@@ -105,9 +105,10 @@ echo "ALL DONE!"
 ALL DONE!
 ```
 ###### Using "while...do" loop
+While "counter" is less than or equal to 10, print "counter". Counts 1-10 then finishes.
 ```
 ** EXAMPLE 1: WHILE LOOP
-
+   
 #!/bin/bash
 
 counter=1
