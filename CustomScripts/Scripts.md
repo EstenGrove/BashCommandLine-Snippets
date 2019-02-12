@@ -40,7 +40,7 @@ fi
 ###### Bash Operators using flags
 ```
 | Bash Operator | Operator | Description              |
-| ------------- | :------: | -----------------------: |
+| ------------- |:--------:| -----------------------: |
 | -eq           | ==       | Equal                    |
 | -ne           | !=       | Not Equal                |
 | -gt           | >        | Greather Than            |
