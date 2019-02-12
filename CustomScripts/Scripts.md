@@ -76,9 +76,10 @@ done
 
 -----
 ## __Examples of Bash Loops__
-###### Using "for...do" loop:
-Get all files in a directory and list them using
+###### Using "for...do" loop
+Get all files in a directory and list them using "for...do" loop:
 ```
+__Example 1__
 #!/bin/bash
 
 FILES=/Users/estengrove/testFolder/*
@@ -87,4 +88,19 @@ for files in $FILES
 do
   echo $(basename $file)
 done
+
+__Example 2__
+#!/bin/bash
+
+names='Cartman Stan Kyle Kenny'
+
+for name in $names
+do
+  echo $name
+done
+echo ALL done
 ```
+
+
+
+
