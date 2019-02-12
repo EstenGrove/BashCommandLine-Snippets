@@ -2,7 +2,7 @@
 #### List of Useful Aliases
 
 ------
-###### Long list directory and print current directory
+###### Long list directory's contents and print the current directory
 
 ```
 alias ld="ls -a;pwd;"
