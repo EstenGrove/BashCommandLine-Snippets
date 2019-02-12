@@ -79,7 +79,7 @@ done
 ###### Using "for...do" loop
 Get all files in a directory and list them using "for...do" loop:
 ```
-<b>Example 1</b>
+> Example 1
 #!/bin/bash
 
 FILES=/Users/estengrove/testFolder/*
