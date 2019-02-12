@@ -54,6 +54,7 @@ fi
 ###### Get all files in a directory and list them:
 ```
 FILES=/Users/estengrove/testFolder/*
+
 for files in $FILES
 do
   echo $(basename $file)
