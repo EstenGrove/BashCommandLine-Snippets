@@ -4,11 +4,11 @@
 ```
 cd ~
 ```
-To confirm your in the right directory run: 
+  To confirm your in the right directory run: 
 ```
 pwd
 ```
-The result should show: /Users/estengrove
-But replace estengrove with whatever your username is.
+  The result should show: /Users/estengrove
+  But replace estengrove with whatever your username is.
 
 
