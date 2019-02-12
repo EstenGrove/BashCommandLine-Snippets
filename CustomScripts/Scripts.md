@@ -51,7 +51,29 @@ fi
 ```
 
 ### Looping
-###### Get all files in a directory and list them:
+#### __Types of Loops__
+###### "for...do" Loops
+```
+for var in <list>
+do
+  <command>
+done
+```
+###### "while...do" Loops
+```
+while [ <condition> ]
+do
+  <command>
+done
+```
+###### "until...do" Loops
+```
+until [ <condition> ]
+do
+  <command>
+done
+```
+###### Get all files in a directory and list them using "for...do" loop:
 ```
 #!/bin/bash
 
