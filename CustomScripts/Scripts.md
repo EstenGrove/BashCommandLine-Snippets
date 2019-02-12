@@ -28,7 +28,7 @@ To invoke the variable use th "$"
 ``` echo "Hello $me"``` Prints: *Hello EstenGrove
 
 
-### Conditionals - taken from [Tania Rascia's site](https://www.taniarascia.com/how-to-create-and-use-bash-scripts/)
+### Conditionals - example taken from [Tania Rascia's site](https://www.taniarascia.com/how-to-create-and-use-bash-scripts/)
 ```
 if [ "age" -gt 20 ]
 then
@@ -36,4 +36,16 @@ then
 else
   echo "You are too young to drink"
 fi
+```
+###### Bash Operators using flags
+```
+| Bash Operator | Operator | Description              |
+| ------------- | :------: | -----------------------: |
+| -eq           | ==       | Equal                    |
+| -ne           | !=       | Not Equal                |
+| -gt           | >        | Greather Than            |
+| -ge           | >=       | Greater than or equal    |
+| -lt           | <        | Less than                |
+| -gt           | <=       | Less Than or equal       |
+| -z            | == null  | Is null                  |
 ```
