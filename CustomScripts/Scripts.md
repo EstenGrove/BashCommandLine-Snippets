@@ -94,15 +94,25 @@ done
   
 #!/bin/bash
 
-names='Cartman Stan Kyle Kenny'
+names='Cartman Stan Kyle Kenny Butters'
+counter=1
 
 for name in $names
 do
-  echo $name
+  echo $counter. $name
+  ((counter++))
 done
-echo ALL done
+echo ALL DONE!
 ```
-
+**RESULT:**
+```
+1. Cartman
+2. Stan
+3. Kyle
+4. Kenny
+5. Butters
+ALL DONE!
+```
 
 
 
