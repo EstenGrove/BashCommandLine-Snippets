@@ -51,7 +51,7 @@ fi
 ```
 
 ### Looping
-Get all files in a directory and list them:
+###### Get all files in a directory and list them:
 ```
 FILES=/Users/estengrove/testFolder/*
 for files in $FILES
