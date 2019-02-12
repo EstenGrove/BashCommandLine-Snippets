@@ -49,3 +49,13 @@ fi
 | -gt           | <=       | Less Than or equal       |
 | -z            | == null  | Is null                  |
 ```
+
+### Looping
+Get all files in a directory and list them:
+```
+FILES=/Users/estengrove/testFolder/*
+for files in $FILES
+do
+  echo $(basename $file)
+done
+```
