@@ -9,7 +9,7 @@
   * Save the file
   * Go to the bin directory and create a bash script
     * All bash scripts must include: ```!#/bin/bash``` at the top before any commmands.
-  * To run a script: ```sh someFile.sh```
+  * To run a script: ```sh scriptFile.sh```
 
 ###### Navigate to your 'user' directory. 
 ```
