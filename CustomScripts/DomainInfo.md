@@ -16,7 +16,7 @@ status: ACTIVE
 ```
 The command will comb thru the WHOIS response and only grab the data listed above, which makes the print out much more concise and improves readability.
 __Here's a breakdown of the response:__
-* status: ```Domain registration status.```
+* status: ```Domain registration status.(Active, Transfered, Expired, Redemption etc.)```
   * Registry Expiry Date: ```Expiration Date.```
   * Name Server: ```The nameservers where the domain is hosted.```
   * Registrant Name: ```The person/company/organization that owns the domain's registration currently.```
