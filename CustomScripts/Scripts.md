@@ -15,6 +15,8 @@ Delete/Remove an alias: ```unalias Docs```
 ### __Useful Aliases__
 ###### Navigate to Documents folder:
 ```alias Docs='cd /Users/estengrove/Documents'```
+###### Navigate to Projects folder: 
+```alias Pro1='cd /Users/estengrove/Desktop/Projects2'```
 ###### Navigate to Projects2 folder: 
 ```alias Pro2='cd /Users/estengrove/Documents/Projects2'```
 ###### Clear console: 
@@ -24,3 +26,14 @@ Delete/Remove an alias: ```unalias Docs```
 ```me="EstenGrove"```
 To invoke the variable use th "$"
 ``` echo "Hello $me"``` Prints: *Hello EstenGrove
+
+
+### Conditionals - taken from [Tania Rascia's site](https://www.taniarascia.com/how-to-create-and-use-bash-scripts/)
+```
+if [ "age" -gt 20 ]
+then
+  echo "You can drink"
+else
+  echo "You are too young to drink"
+fi
+```
