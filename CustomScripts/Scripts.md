@@ -79,7 +79,8 @@ done
 ###### Using "for...do" loop
 Get all files in a directory and list them using "for...do" loop:
 ```
-```Example 1```
+  ** EXAMPLE 1
+  
 #!/bin/bash
 
 FILES=/Users/estengrove/testFolder/*
@@ -89,7 +90,8 @@ do
   echo $(basename $file)
 done
 
-*Example 2
+  ** EXAMPLE 2
+  
 #!/bin/bash
 
 names='Cartman Stan Kyle Kenny'
