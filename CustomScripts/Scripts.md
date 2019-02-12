@@ -73,7 +73,11 @@ do
   <command>
 done
 ```
-###### Get all files in a directory and list them using "for...do" loop:
+
+-----
+## __Examples of Bash Loops__
+###### Using "for...do" loop:
+Get all files in a directory and list them using
 ```
 #!/bin/bash
 
