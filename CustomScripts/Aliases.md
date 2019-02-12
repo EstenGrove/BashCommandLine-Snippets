@@ -1,6 +1,17 @@
-#### __Aliases__
-###### Create an alias for running multiple commands from one single command.
+## __Aliases__
+#### List of Useful Aliases
+
+------
+###### Long list directory and print current directory
+
 ```
-alias ld="ls;pwd;"
-alias myDocs="cd ~;cd Documents/;"
+alias ld="ls -a;pwd;"
+```
+###### Navigate to Documents Folder
+```
+alias Docs='cd /Users/estengrove/Documents'
+```
+###### Clear Console
+```
+alias c='clear'
 ```
