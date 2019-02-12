@@ -13,6 +13,6 @@ Delete/Remove an alias: ```unalias Docs```
 
 
 ### __Useful Aliases__
-Navigate to Documents folder: ```alias Docs='cd /Users/estengrove/Documents'```
-Navigate to Projects2 folder: ```alias Projects2='cd /Users/estengrove/Documents/Projects2'```
-Clear console: ```alias c='clear'
+* Navigate to Documents folder: ```alias Docs='cd /Users/estengrove/Documents'```
+* Navigate to Projects2 folder: ```alias Projects2='cd /Users/estengrove/Documents/Projects2'```
+* Clear console: ```alias c='clear'
