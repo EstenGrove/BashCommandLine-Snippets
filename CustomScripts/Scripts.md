@@ -20,7 +20,7 @@ Delete/Remove an alias: ```unalias Docs```
 ###### Clear console: 
 ```alias c='clear'```
 
-###### Create a Variable
+#### Create a Variable
 ```me="EstenGrove"```
 To invoke the variable use th "$"
 ``` echo "Hello $me"```
