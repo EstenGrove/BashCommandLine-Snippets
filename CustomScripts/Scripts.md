@@ -19,3 +19,8 @@ Delete/Remove an alias: ```unalias Docs```
 ```alias Pro2='cd /Users/estengrove/Documents/Projects2'```
 ###### Clear console: 
 ```alias c='clear'```
+
+###### Create a Variable
+```me="EstenGrove"```
+To invoke the variable use th "$"
+``` echo "Hello $me"```
