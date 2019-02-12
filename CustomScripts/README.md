@@ -5,7 +5,7 @@
 * Create a directory called bin: ```mkdir bin```
 * Add the path to "/bin" to the top of your .bash_profile:
   * ```nano .bash_profile```
-  * ```export PATH=$PATH:/Users/estengrove```
+  * Paste inside .bash_profile: ```export PATH=$PATH:/Users/estengrove```
   * Save the file
   * Go to the bin directory and create a bash script
     * All bash scripts must include: ```!#/bin/bash``` at the top before any commmands.
