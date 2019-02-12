@@ -80,18 +80,7 @@ done
 Get all files in a directory and list them using "for...do" loop:
 ```
 ** EXAMPLE 1
-  
-#!/bin/bash
 
-FILES=/Users/estengrove/testFolder/*
-
-for files in $FILES
-do
-  echo $(basename $file)
-done
-
-** EXAMPLE 2
-  
 #!/bin/bash
 
 names='Cartman Stan Kyle Kenny Butters'
@@ -106,6 +95,7 @@ echo ALL DONE!
 ```
 **RESULT:**
 ```
+** EXAMPLE 1 ANSWER:
 1. Cartman
 2. Stan
 3. Kyle
