@@ -53,6 +53,8 @@ fi
 ### Looping
 ###### Get all files in a directory and list them:
 ```
+#!/bin/bash
+
 FILES=/Users/estengrove/testFolder/*
 
 for files in $FILES
