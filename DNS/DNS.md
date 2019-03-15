@@ -24,6 +24,18 @@ dig example.com txt
 ```
 nslookup -type=any example.com
 ```
+###### Lookup All MX Records for a Domain.
+```
+nslookup -query=mx example.com
+```
+###### Reverse DNS Lookup By IP|Domain|Nameservers etc.
+```
+nslookup <IP|Domain|NS>
+```
+###### Change the Port that "nslookup" Uses for Lookups
+```
+nslookup -port=<portNumber> example.com
+```
 ###### Test whether a server is live and it's response time.
 ```
 ping <domain|IP>
