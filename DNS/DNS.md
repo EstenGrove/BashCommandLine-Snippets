@@ -20,6 +20,7 @@ dig example.com ns
 ```
 dig example.com txt
 ```
+### NSLOOKUP
 ###### Lookup all available DNS for a domain. Provides less details per record. Quick Snapshot. 
 ```
 nslookup -type=any example.com
