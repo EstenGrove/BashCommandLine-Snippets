@@ -1,4 +1,6 @@
-#### __DNS__
+## __DNS__
+
+### DIG
 
 ###### Run a DNS lookup for a domain's "A" record. (Resolves to the server's IP)
 ```
