@@ -50,6 +50,7 @@ sed -n 383p someFile.txt
 ```
 sed -n '3,6p' someFile.txt
 ```
+
 ---------
 #### __Find__
 ###### Find all documents with a specific extension(.txt, .js, .html...) recursively.
@@ -106,7 +107,7 @@ find . -name "someFile.txt" -type f -delete
 find . -name "*.txt" -type f -delete
 ```
 <br/>
-[ToTop](#BashCommandLine-Snippets)
+- [ToTop](#BashCommandLine-Snippets)
 <br/>
 --------
 #### __Permissions__ 
@@ -145,7 +146,7 @@ users <username>
 Alternate way: grep <username> /etc/group
 ```
 <br/>
-[ToTop](#BashCommandLine-Snippets)
+- [ToTop](#BashCommandLine-Snippets)
 <br/>
 -----
 #### __Netstat__
@@ -181,4 +182,4 @@ netstat -nt | grep :443 | wc -l
 ```
 n <serverIP>
 ```
-[ToTop](#BashCommandLine-Snippets)
+- [ToTop](#BashCommandLine-Snippets)
