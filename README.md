@@ -107,7 +107,6 @@ find . -name "someFile.txt" -type f -delete
 find . -name "*.txt" -type f -delete
 ```
 
-- [ToTop](#BashCommandLine-Snippets)
 
 --------
 #### __Permissions__ 
@@ -145,9 +144,6 @@ id -g -n <username>
 users <username>
 Alternate way: grep <username> /etc/group
 ```
-<br/>
-- [ToTop](#BashCommandLine-Snippets)
-<br/>
 -----
 #### __Netstat__
 ###### Count the number of connections per IP
