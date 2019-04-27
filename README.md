@@ -11,7 +11,7 @@ A set a various different commands for different purposes along with snippets an
 - [Netstat](#Netstat)
 
 --------
-
+#### __awk__
 #### __Text & Data Processing - Access Logs, Error Logs etc.__
 _________
 
@@ -105,6 +105,9 @@ find . -name "someFile.txt" -type f -delete
 ```
 find . -name "*.txt" -type f -delete
 ```
+<br/>
+[ToTop](#BashCommandLine-Snippets)
+<br/>
 --------
 #### __Permissions__ 
 ###### Get Permissions in octal form (755, 644 etc.)
@@ -141,6 +144,9 @@ id -g -n <username>
 users <username>
 Alternate way: grep <username> /etc/group
 ```
+<br/>
+[ToTop](#BashCommandLine-Snippets)
+<br/>
 -----
 #### __Netstat__
 ###### Count the number of connections per IP
@@ -175,3 +181,4 @@ netstat -nt | grep :443 | wc -l
 ```
 n <serverIP>
 ```
+[ToTop](#BashCommandLine-Snippets)
