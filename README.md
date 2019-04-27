@@ -51,6 +51,9 @@ sed -n 383p someFile.txt
 sed -n '3,6p' someFile.txt
 ```
 
+[To The Top](#BashCommandLine-Snippets)
+ <br/>
+ 
 ---------
 #### __Find__
 ###### Find all documents with a specific extension(.txt, .js, .html...) recursively.
@@ -109,6 +112,7 @@ find . -name "*.txt" -type f -delete
 
  [To The Top](#BashCommandLine-Snippets)
  <br/>
+ 
 --------
 #### __Permissions__ 
 ###### Get Permissions in octal form (755, 644 etc.)
@@ -145,6 +149,9 @@ id -g -n <username>
 users <username>
 Alternate way: grep <username> /etc/group
 ```
+[To The Top](#BashCommandLine-Snippets)
+ <br/>
+ 
 -----
 #### __Netstat__
 ###### Count the number of connections per IP
@@ -179,4 +186,5 @@ netstat -nt | grep :443 | wc -l
 ```
 n <serverIP>
 ```
-- [ToTop](#BashCommandLine-Snippets)
+[ToTop](#BashCommandLine-Snippets)
+<br/>
