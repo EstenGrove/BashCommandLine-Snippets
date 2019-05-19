@@ -1,5 +1,7 @@
+# Prints the Current Directory to the terminal prompt.
 export PATH=$PATH:/Users/stevengore/bin
 
+# Formats the terminal prompt: <user>@~/<current-directory> [<git-branch>]$
 git_branch() {
      git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
 }
