@@ -1,5 +1,12 @@
 # Server Related Commands
 
+
+
+### APACHE Commands
+- Edit Apache config
+- Restart Apache(graceful)
+- Edit the ```etc``` hosts file
+- Tail the error logs
 ```bash
 alias apacheEdit='sudo edit /etc/httpd/httpd.conf'      # apacheEdit:       Edit httpd.conf
 alias apacheRestart='sudo apachectl graceful'           # apacheRestart:    Restart Apache
