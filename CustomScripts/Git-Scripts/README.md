@@ -8,3 +8,6 @@ acp (){
   git add -A;git commit -m "$1";git push -u origin master
 }
 ```
+- To Run the command:
+```bash
+acp "Comment goes here..."
