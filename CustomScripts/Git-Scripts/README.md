@@ -2,8 +2,9 @@
 - A collection of useful helpers to improve production and efficiency
 
 ### Git Add, Commit and Push Script
+- NOTE: to change the branch that you're pushing to it's best to create a separate alias 
 ```bash
 acp (){
-  git add -A;git commit -m "$1";git push
+  git add -A;git commit -m "$1";git push -u origin master
 }
 ```
