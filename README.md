@@ -5,9 +5,9 @@
 
 
 # Bash Commands & Scripts: Quick Navigation
-- [Bash Profile (.bash_profile and/or .bashrc)](https://github.com/EstenGrove/BashCommandLine-Snippets/blob/master/CustomScripts/CURRENT-PROFILE.sh)
+- [Bash Profile (.bash_profile(MacOS/Linux) and/or .bashrc(Windows))](https://github.com/EstenGrove/BashCommandLine-Snippets/blob/master/CustomScripts/CURRENT-PROFILE.sh)
 - [Git Commands/Aliases](https://github.com/EstenGrove/BashCommandLine-Snippets/blob/master/CustomScripts/Git-Scripts/deploy.sh)
--
+
 
 ## BashCommandLine-Snippets
 A set a various different commands for different purposes along with snippets and bash scripts.
