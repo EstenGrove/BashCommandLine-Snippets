@@ -1,5 +1,7 @@
 # A "Quick Start" Guide to Bash
 
+#### __NOTE: Every script file must contain ```#!/bin/bash``` before any scripts are written. Otherwise you may place scripts in your .bash_profile or .bashrc file.
+
 ### Aliases
 - Allows commands to be referenced with a keyword
 ```bash
@@ -50,7 +52,43 @@ if [num < 10]; then
 fi
 ```
 
+### Loops: for, while, until
 
+#### For Loop
+- For every ```i``` in ```ls``` echo ```i```.
+  - Basically, looop thru ```ls``` and print every item.
+```bash
+for i in $( ls ); do
+  echo item: $i
+done
+```
+###### C-Type For Loop
+- Same as the above for loop but different syntax.
+```bash
+for i in `seq 1 10`;
+do
+  echo $i
+done  
+```
 
+#### While Loop
+- While the ```COUNTER``` is less than(```-lt```) 10, print the ```COUNTER```'s value
+```bash
+COUNTER=0
+while [  $COUNTER -lt 10 ]; do
+  echo The counter is $COUNTER
+  let COUNTER=COUNTER+1 
+done
+```
+
+#### Until Loop
+- Loop from then number 20 down to 10 in the ```COUNTER``` print the ```COUNTER```
+```bash
+COUNTER=20
+until [  $COUNTER -lt 10 ]; do
+  echo COUNTER $COUNTER
+  let COUNTER-=1
+done
+```
 
 
