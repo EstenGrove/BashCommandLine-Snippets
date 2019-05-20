@@ -1,6 +1,6 @@
 # A "Quick Start" Guide to Bash
 
-#### __NOTE: Every script file must contain ```#!/bin/bash``` before any scripts are written. Otherwise you may place scripts in your .bash_profile or .bashrc file.
+#### __NOTE: Every script file must contain ```#!/bin/bash``` before any scripts are written. Otherwise you may place scripts in your .bash_profile or .bashrc file.__
 
 ### Aliases
 - Allows commands to be referenced with a keyword
@@ -91,4 +91,19 @@ until [  $COUNTER -lt 10 ]; do
 done
 ```
 
-
+## Using the "SELECT" Keyword to Make Menus
+- This will create a "select" menu by looping thru each option in ```OPTIONS```, which allows the user to select an option.
+```
+OPTIONS="Hello Quit"
+select opt in $OPTIONS; do
+  if [ "$opt" = "Quit" ]; then
+    echo done
+    exit
+  elif [ "$opt" = "Hello" ]; then
+    echo Hello World
+  else
+  clear
+    echo bad option
+  fi
+  done
+```
