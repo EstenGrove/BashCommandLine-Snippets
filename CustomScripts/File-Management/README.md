@@ -30,3 +30,8 @@ ls -l > output.txt
 ```
 ##### Pipe the Output 
 - Using the ```|``` key will pass the *output* of one command, program or file and use it as the *input* to another
+```bash
+ls -l | output.txt
+```
+
+
