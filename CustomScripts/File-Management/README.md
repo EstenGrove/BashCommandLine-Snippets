@@ -14,6 +14,14 @@ tar -zcvf output.tar.gz /path/to/dir/
 tar -zcvf output.tar.gz dir1 dir2 dir3 
 ```
 
+#### Quick and Dirty Backup Script
+- The following script will make a backup called "my-backup-<the current date>.tgz" of the /home/me/ directory.
+```bash
+#!/bin/bash          
+OF=/var/my-backup-$(date +%Y%m%d).tgz
+tar -cZf $OF /home/me/
+```
+
 ## Sending Output To Files and More...
 
 ##### Write the Output of "long list"(ll) to a File
