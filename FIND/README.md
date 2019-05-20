@@ -9,6 +9,8 @@ find <directory> -flags <search-item>
 ```bash
 find . -type d -name "Web*"
 ```
+### Find, without Case Sensitivity
+- Use the ```-iname``` flag when searching by name
 
 ###### Find all documents that *start with* "test" regardless of case, in the /Documents directory
 ```bash
