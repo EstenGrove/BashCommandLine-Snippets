@@ -1,4 +1,14 @@
-#### __Find__
+# Find
+
+## Syntax
+```bash
+find <directory> -flags <search-item>
+```
+#### Example
+- This will find all directories inside the current directory that start with "Web". Case-sensitive
+```bash
+find . -type d -name "Web*"
+```
 
 ###### Find all documents that *start with* "test" regardless of case, in the /Documents directory
 ```bash
