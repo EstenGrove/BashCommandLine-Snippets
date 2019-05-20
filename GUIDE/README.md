@@ -151,3 +151,27 @@ do
   mysql -uroot -e"show tables from $b"
 done
 ```
+## Using the ```BC``` Shell
+- The ```BC``` Shell allows for bash scripts, arithmetic and other commands to run right from the terminal without a separate file;
+```bash
+# Start the Shell
+bc -q
+>enter some command here...
+
+###### Examples ######
+
+## Arithmetic
+>1 + 1
+# Output
+2
+
+## While Loop
+>while(i != 10) { i = i + 1; print i }
+# Output
+12345678910
+
+## Square Root
+>sqrt(9)
+3
+```
+
