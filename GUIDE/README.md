@@ -173,5 +173,8 @@ bc -q
 ## Square Root
 >sqrt(9)
 3
+
+# To Exit
+>quit
 ```
 
