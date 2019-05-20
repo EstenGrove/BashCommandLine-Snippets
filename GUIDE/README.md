@@ -7,6 +7,8 @@ alias HOME='cd /Users/myusername'
 ```
 
 ### Functions
+- The ```$1``` references the first argument passed to the function.
+- ```$2``` references the second argument passed to the function and so on...
 
 ```bash
 # Define function
