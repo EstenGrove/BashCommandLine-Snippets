@@ -5,7 +5,8 @@
 
 
 # Bash Commands & Scripts: Quick Navigation
-- [Bash Profile (.bash_profile(MacOS/Linux) and/or .bashrc(Windows))](https://github.com/EstenGrove/BashCommandLine-Snippets/blob/master/CustomScripts/CURRENT-PROFILE.sh)
+- [Bash Profile](https://github.com/EstenGrove/BashCommandLine-Snippets/blob/master/CustomScripts/CURRENT-PROFILE.sh)
+ - .bash_profile(MacOS/Linux) and/or .bashrc(Windows)
 - [Git Commands/Aliases](https://github.com/EstenGrove/BashCommandLine-Snippets/blob/master/CustomScripts/Git-Scripts/deploy.sh)
 
 
