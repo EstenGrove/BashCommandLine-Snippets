@@ -107,3 +107,47 @@ select opt in $OPTIONS; do
   fi
   done
 ```
+
+## Reading User Input with ```READ```
+```bash
+echo "Please, enter your firstname and lastname"
+read FN LN
+echo "Hi $FN $LN!"
+```
+## Handling Arithmetic
+```bash
+echo $((1 + 1))
+
+# Output
+2
+
+#### Alternate Syntax ####
+echo $[1 + 1]
+
+# Output
+2
+```
+#### Arithmetic Comparison Operators
+```bash
+-lt (<)
+
+-gt (>)
+
+-le (<=)
+
+-ge (>=)
+
+-eq (==)
+
+-ne (!=)
+```
+
+## Capture a Commands' Output
+- This script will print all tables in a database(assuming MySQL is installed)
+```bash
+DBS=`mysql -uroot  -e"show databases"`
+for b in $DBS ;
+do
+  mysql -uroot -e"show tables from $b"
+done
+```
