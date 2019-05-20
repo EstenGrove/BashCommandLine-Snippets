@@ -35,3 +35,22 @@ greeting $name
 # Output
 Hello Esten
 ```
+
+### Conditionals
+
+##### Syntax
+```bash
+if [expression]; then
+  # do something...
+fi
+
+# Example
+if [num < 10]; then
+  echo "$num is less than 10"
+fi
+```
+
+
+
+
+
