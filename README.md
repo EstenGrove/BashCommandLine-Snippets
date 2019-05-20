@@ -2,6 +2,8 @@
 <img width="86" alt="Screen Shot 2019-04-26 at 6 08 39 PM" src="https://user-images.githubusercontent.com/41505038/56842802-833c0f80-684e-11e9-92bb-db9a5fcab1b9.png">
 
 <br/>
+
+
 # Bash Commands & Scripts: Quick Navigation
 - [Bash Profile (.bash_profile and/or .bashrc)](https://github.com/EstenGrove/BashCommandLine-Snippets/blob/master/CustomScripts/CURRENT-PROFILE.sh)
 - [Git Commands/Aliases](https://github.com/EstenGrove/BashCommandLine-Snippets/blob/master/CustomScripts/Git-Scripts/deploy.sh)
