@@ -14,5 +14,5 @@ for i in $(seq 10); do touch "test-$i".txt; done
 for i in $(seq 10); do rm -rf "test-$i".txt; done
 
 
-# To add content to a set of files
+# To create **AND** add content to a set of files
 for i in $(seq 10); do echo "File Number $i" > "test-$i".txt; done
