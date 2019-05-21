@@ -29,7 +29,7 @@ To invoke the variable use th "$"
 
 
 ### Conditionals - example taken from [Tania Rascia's site](https://www.taniarascia.com/how-to-create-and-use-bash-scripts/)
-```
+```bash
 if [ "age" -gt 20 ]
 then
   echo "You can drink"
@@ -38,7 +38,7 @@ else
 fi
 ```
 ###### Bash Operators using flags
-```
+```bash
 | Bash Operator | Operator | Description              |
 | ------------- | -------- | ------------------------ |
 | -eq           | ==       | Equal                    |
@@ -53,21 +53,21 @@ fi
 ### Looping
 #### __Types of Loops__
 ###### "for...do" Loops
-```
+```bash
 for var in <list>
 do
   <command>
 done
 ```
 ###### "while...do" Loops
-```
+```bash
 while [ <condition> ]
 do
   <command>
 done
 ```
 ###### "until...do" Loops
-```
+```bash
 until [ <condition> ]
 do
   <command>
@@ -78,7 +78,7 @@ done
 ## __Examples of Bash Loops__
 ###### Using "for...do" loop
 Print all names in a list using a "for...do" loop. For every name in names print it with the "counter".
-```
+```bash
 ** EXAMPLE 1: FOR LOOP
    
 #!/bin/bash
@@ -95,7 +95,7 @@ done
 echo "ALL DONE!"
 ```
 **RESULT:**
-```
+```bash
 ** EXAMPLE 1 ANSWER:
 1. Cartman
 2. Stan
@@ -106,7 +106,7 @@ ALL DONE!
 ```
 ###### Using "while...do" loop
 While "counter" is less than or equal to 10, print "counter". Counts 1-10 then finishes.
-```
+```bash
 ** EXAMPLE 1: WHILE LOOP
    
 #!/bin/bash
@@ -121,7 +121,7 @@ done
 echo "ALL DONE!"
 ```
 **RESULT:**
-```
+```bash
 ** EXAMPLE 1 ANSWER:
 1
 2
