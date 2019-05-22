@@ -36,3 +36,5 @@
 ```bash
 grep -inR --color "miller" .
 ```
+##### __Example__
+<img width="649" alt="Screen Shot 2019-05-21 at 7 10 23 PM" src="https://user-images.githubusercontent.com/41505038/58142510-33a5f500-7bfc-11e9-8349-bad62ef8bb7f.png">
