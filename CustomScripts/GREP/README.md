@@ -27,3 +27,12 @@
   - prints *ONLY* the matched parts of a matching line, partials
 - ```--color```
   - will print out the matches using color
+- ```-s```
+  - suppress error messages, like unable to read files or directories
+  
+  
+### Print the Matching Files, Line Numbers,and the Line with the Matching Text Highlighted
+- This will search the current directory recursively for the word "miller" and print the file, line #, line and highlight the matches
+```bash
+grep -inR --color "miller" .
+```
