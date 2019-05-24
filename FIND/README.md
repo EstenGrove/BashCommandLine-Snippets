@@ -1,5 +1,11 @@
 # Find
 
+### List all Files in all Sub-Directories Recursively using ```find```
+- This list everything below your current directory and list the contents of each subdirectory, even sym-links.
+```bash
+find -follow
+```
+
 ## Syntax
 ```bash
 find <directory> -flags <search-item>
