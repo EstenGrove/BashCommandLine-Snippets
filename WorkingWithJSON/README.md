@@ -23,4 +23,4 @@ curl https://api.github.com/repos/facebook/react | jq
     "node_id": "MDEyOk9yZ2FuaXphdGlvbjY5NjMx",
     "avatar_url": "https://avatars3.githubusercontent.com/u/69631?v=4",
     ...
-    ```
+```
