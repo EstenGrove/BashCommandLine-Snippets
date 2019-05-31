@@ -25,6 +25,13 @@ log-3/
 log-4/
 log-5/
 ```
+- Also works w/ letters
+```bash
+echo {a..z}
+
+# output
+a b c d e f g h i j k l m n o p q r s t u v w x y z
+```
 - You can even create several directories or files with the same naming format:
 ```bash
 mkdir -p log-{monday,tuesday,wednesday}
