@@ -24,3 +24,12 @@ curl https://api.github.com/repos/facebook/react | jq
     "avatar_url": "https://avatars3.githubusercontent.com/u/69631?v=4",
     ...
 ```
+### Accessing JSON Values in Bash w/ JQ
+- Grabbing a value:
+```bash
+echo https://api.github.com/repos/facebook/react | jq '.stargazers_count'
+
+# this represents
+{ 
+  "stargazers_count": 130458,
+}
