@@ -1,6 +1,6 @@
 # Working w/ JSON in Bash
 
-##### __NOTE: it's usefull to install ```jq``` which is a JSON parser and interpreter for bash.
+##### __NOTE: it's usefull to install ```jq``` which is a JSON parser and interpreter for bash.__
 - install jq
 ```bash
 brew install jq
