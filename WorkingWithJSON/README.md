@@ -33,3 +33,10 @@ echo https://api.github.com/repos/facebook/react | jq '.stargazers_count'
 { 
   "stargazers_count": 130458,
 }
+```
+## Find Unused Dependencies in a Project Using JQ and grep
+```bash
+jq '.dependencies' package.json
+
+# this will get all the dependencies inside package.json
+```
