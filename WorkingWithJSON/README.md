@@ -40,3 +40,13 @@ jq '.dependencies' package.json
 
 # this will get all the dependencies inside package.json
 ```
+- You can create an array of the keys from an object using JQ's built in method:
+```bash
+jq '.dependencies | keys' package.json
+
+# output
+[
+  "express",
+  "lodash"
+]
+```
