@@ -54,3 +54,15 @@ wget https://example.com/index.html
 curl https://example.com/index.html
 ```
   - File is only viewable in the terminal and it didn't actually save the file locally
+
+## Networking
+
+##### Change Wifi Network Status on Your Computer
+```bash
+# turn off wifi
+sudo ifconfig en0 down
+
+# turn wifi on
+sudo ifconfig en0 up
+```
+
