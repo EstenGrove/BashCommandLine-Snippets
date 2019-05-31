@@ -30,7 +30,7 @@ mkdir -p a/b/c
 # output
 --a
   |
-  |-b
-    |
-    |-c
+  |--b
+     |
+     |--c
 ```
