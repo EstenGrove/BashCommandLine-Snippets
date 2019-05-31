@@ -11,7 +11,19 @@ tree
 ```bash
 cp test.txt{,.backup}
 
-# now there will be two files: the original (test.txt) and the copy (test.txt.backup)
+# output
+test.txt test.txt.backup
+```
+#### __Ranges w/ Brace Expansion__
+```bash
+mkdir log-{1..5}
+ 
+#output
+log-1/
+log-2/
+log-3/
+log-4/
+log-5/
 ```
 - You can even create several directories or files with the same naming format:
 ```bash
