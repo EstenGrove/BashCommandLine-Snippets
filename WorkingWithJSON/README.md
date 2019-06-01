@@ -63,3 +63,4 @@ for dep in $(jq -r '.dependencies | keys | .[]' package.json); do
   fi
 done
 ```
+- be sure to give it executable permissions: ```chmod +x unused-deps.sh```
