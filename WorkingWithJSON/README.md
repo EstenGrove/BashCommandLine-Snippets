@@ -50,3 +50,16 @@ jq '.dependencies | keys' package.json
   "lodash"
 ]
 ```
+## Custom Script for Finding Unused Deps in package.json
+- this will search your package.json for all the object keys in the "dependencies" object and push them to an array.
+- then it will ```grep``` for deps that are NOT used and excludes checking the ```node_modules``` directory
+- then it will echo to the console "You can probably remove lodash" or whatever dep it finds that's not used.
+```bash
+# inside unused-deps.sh
+
+for dep in $(jq -r '.dependencies | keys | .[]' package.json); do
+  if ! grep "require\(.*$dep.*\)" -Rq --exclude-dir="node_modules" .; then
+  echo "You can probably remove $dep"
+  fi
+done
+```
