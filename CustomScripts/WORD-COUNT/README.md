@@ -9,4 +9,6 @@
     - Example: ```wc -w file.txt```
     
 #### Count the Number of Files in a Directory
-```ls -l <dir> | wc -l
+```
+ls -l <dir> | wc -l
+```
