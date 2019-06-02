@@ -3,13 +3,19 @@
 
 ## STDOUT 
 - is the output that a bash shell will "print" in the shell. It can be redirected using ```>```
+- you can also "silence" stdout and basically discard it's output by piping to ```/dev/null```
 
-##### __Example__
+##### __Example 1__
 ```bash
 ls > list.txt
 ```
 - the above will print the output of "long list" to a file called "list.txt".
-
+##### __Example 2__
+- to "append" ```stdout``` to a file use the ```>>``` characters.
+```bash
+echo "Holy SHIT" >> logInfo/logInfo.txt
+```
+- the above will print "Holy SHIT" to logInfo.txt
 
 ## STDERR 
 - is the output that a bash shell will "print" in the shell when there's an error. It can be redirected/piped using ```2>```
